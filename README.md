@@ -17,9 +17,9 @@
   * Random Forest Regression
   * Support Vector Regression (SVR)
 
-\`\`\`python
+```python
 from sklearn.linear_model import LinearRegression
-\`\`\`
+```
 
 #### Key Metrics:
 - **Mean Squared Error (MSE)**: Average squared difference between actual and predicted values.
@@ -35,9 +35,9 @@ from sklearn.linear_model import LinearRegression
   * Support Vector Machine (SVM)
   * Naive Bayes
 
-\`\`\`python
+```python
 from sklearn.linear_model import LogisticRegression
-\`\`\`
+```
 
 #### Key Metrics:
 - **Accuracy**: Proportion of correct predictions.
@@ -56,9 +56,9 @@ from sklearn.linear_model import LogisticRegression
   * Hierarchical Clustering
   * DBSCAN
 
-\`\`\`python
+```python
 from sklearn.cluster import KMeans
-\`\`\`
+```
 
 ### Dimensionality Reduction
 * Reduces the number of variables to simplify data analysis.
@@ -66,9 +66,9 @@ from sklearn.cluster import KMeans
   * Principal Component Analysis (PCA)
   * Factor Analysis (FA)
 
-\`\`\`python
+```python
 from sklearn.decomposition import PCA
-\`\`\`
+```
 
 ## 3. Reinforcement Learning
 * **Used when the agent learns by interacting with the environment**.
@@ -85,17 +85,17 @@ from sklearn.decomposition import PCA
 * Deep Q-Networks (DQN)
 * Policy Gradient Methods
 
-\`\`\`python
+```python
 from stable_baselines3 import PPO
-\`\`\`
+```
 
 ## Model Evaluation Techniques
 * Split the dataset into **training** and **test** sets to evaluate model performance.
 * Use **Cross-validation** for robust performance estimates.
 
-\`\`\`python
+```python
 from sklearn.model_selection import train_test_split, cross_val_score
-\`\`\`
+```
 
 ### Common Evaluation Metrics:
 - **Confusion Matrix**: Summarizes predictions into TP, TN, FP, FN.
